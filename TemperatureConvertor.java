@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.util.Scanner;
-public class Convertor {
+public class TemperatureConvertor {
 
     public static double toFarenheit(double x){
         return ( x * 9/5) + 32;
@@ -72,6 +72,7 @@ public class Convertor {
             }
 
         }
-
+        Input().close();
+        In().close();
     }
     }
